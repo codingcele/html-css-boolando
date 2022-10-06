@@ -134,18 +134,10 @@ span {
     margin-top: 50px;
 }
 
-.image:hover  .heart {
-    color: red;
-}
-
 .retro {
     position: absolute;
     left: 0;
     z-index: -1;
-}
-
-.image:hover > .retro {
-    z-index: 2;
 }
 
 footer {
@@ -194,4 +186,8 @@ footer {
 #social {
     font-size: 20px;
     margin-top: 5px;
+}
+
+.image:hover > .heart {
+    color: red;
 }
